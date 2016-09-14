@@ -6,7 +6,10 @@ body {
 .projeto{
 	position: absolute;
 	padding-top: 70px;
-    left: 36.4%;
+    /*left: 36.4%;*/
+    left: 19.2%;
+    font-size: 120%;
+    width: 50px;
 }
 
 .theme-dropdown .dropdown-menu {
