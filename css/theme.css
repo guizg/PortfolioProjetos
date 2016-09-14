@@ -24,16 +24,43 @@ body {
   width: auto;
 }
 
+.about {
+	visibility: hidden;
+}
 
+nav{
+	z-index: 1;
+}
+
+.sobremim{
+	position: absolute;
+	padding-top: 0px;
+	top: 0%;
+	visibility: visible;
+	z-index: 2;
+}
 
 
 .car{
 	position: absolute;
 	padding-top: 0px;
+	z-index: -1;
 }
 
 @media screen and (max-width: 600px) {
   .car {
     visibility: hidden;
+  }
+
+  .sobremim{
+  	visibility: hidden;
+  }
+
+  .about{
+  	visibility: visible;
+  }
+
+  .projeto{
+  	left: 0%;
   }
 }
