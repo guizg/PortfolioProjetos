@@ -1,52 +1,165 @@
 <!DOCTYPE html>
-<html  lang="pt">
-	<head>
-		<meta charset="utf-8">
-		<title>Portfólio de Projetos</title>
-	</head>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfólio de Projetos</title>
 
-	<body>
-		<p>
-			<strong>Nome: </strong>  Estação Meteorológica
-		</p>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
 
-		<p>
-			<strong>Curso: </strong>Engenharias de Computação, Mecânica e Mecatrônica
-		</p>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <a href="#about">
+        <div class="sobremim">
+            <img src="img/sobremim2.png" alt="" >
+        </div>
+      </a>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+          <a class="navbar-brand">Portfólio de Projetos</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="index.html">Home</a></li>
+            <li class="about"><a href="#about">About</a></li>
+            <li class="dropdown">
+              <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programação <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="calculoconceito.html">Cálculo de Conceito</a></li>
+                <li><a href="crud.html">CRUD</a></li>
+                <li><a href="jogodavelha.html">Jogo da Velha</a></li>
+                <li><a href="projetofinal.html">Projeto Final</a></li>
+                <li><a href="portfolio.html">Portfólio de Projetos</a></li>
+                <li><a href="prototipoapp.html">Protótipo de Aplicativo</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Matemática/Modelos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="dinamicapop.html">Dinâmica Populacional</a></li>
+                <li><a href="farmacoterm.html">Farmacocinética ou Termodinâmica</a></li>
+                <li><a href="sistmec.html">Sistema Mecânico</a></li>
+                <li><a href="estudo.html">Estudo Autônomo</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Maker <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="barata.html">Barata Elétrica</a></li>
+                <li><a href="brinquedo.html">Brinquedo Infantil</a></li>
+                <li><a href="estacao.html">Estação Meteorológica</a></li>
+                <li><a href="unico.html">Projeto Único</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eletrônica <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="chuveiro.html">Sistema de Aquecimento de um Chuveiro Elétrico</a></li>
+                <li><a href="petroleo.html">Rede de Distribuição de Petróleo</a></li>
+                <li><a href="ampop.html">Circuito Eletrônico com Amplificador Operacional ou Diodos e Transístores</a></li>
+                <li><a href="pwm.html">Acionamento PWM com Eletrônica Analógica ou Filtro</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dados <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="analise.html">Análise Exploratória</a></li>
+                <li><a href="compinterfaces.html">Comparação de Interfaces</a></li>
+                <li><a href="regressao.html">Modelos de Regressão</a></li>
+                <li><a href="ajuste.html">Ajuste de Modelo Teórico</a></li>
+                <li><a href="teoremalc.html">Teorema do Limite Central</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mídias <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="artigo1.html">Primeiro Artigo</a></li>
+                <li><a href="artigo2.html">Segundo Artigo</a></li>
+                <li><a href="application.html">Application do Singularity</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-		<p>
-			<strong>Disciplina: </strong>Intrumentação e Medição
-		</p>
+    
+    <div id="carousel-example-generic" class="car" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/adm_insper_edited.jpg" alt="First slide">
+        </div>
+        <div class="item">
+          <img src="img/bresil-insper_edited.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+          <img src="img/FSC3000_edited.jpg" alt="Third slide">
+        </div>
+        <div class="item">
+          <img src="img/2013-05-23-insper4-HB_edited.jpg" alt="Third slide">
+        </div>
+        <div class="item">
+          <img src="img/FSC7958-1_edited.jpg" alt="Third slide">
+        </div>
+        <div class="item">
+          <img src="img/FSC7971_edited.jpg" alt="Third slide">
+        </div>
+      </div>
+    </div>
 
-		<p>
-			<strong>Período: </strong>Primeiro
-		</p>
+    <div class="projeto"> 
+      <div class="container theme-showcase" role="main">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title"><strong>Estação Meteorológica</strong></h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  <strong>Curso: </strong>Engenharias de Computação, Mecânica e Mecatrônica
+                </p>
+                <p>
+                  <strong>Disciplina: </strong>Design de Software
+                </p>
+                <p>
+                  <strong>Período: </strong>Primeiro
+                </p>
+                <p>
+                  <strong>Duração: </strong>2 semanas
+                </p>
+                <p>
+                  <strong>Natureza: </strong>Prático
+                </p>
+                <p>
+                  <strong>Descrição: </strong>Esse projeto consiste na criação de um jogo da velha simples usando a linguagem de programação Python e a biblioteca de interface tkinter.
+                </p>
+              </div>
+            </div>
+      </div>
+    </div><!-- projeto -->
 
-		<p>
-			<strong>Duração: </strong>1 mês
-		</p>
-
-		<p>
-			<strong>Natureza: </strong>Prático
-		</p>
-
-		<p>
-			<strong>Descrição: </strong>Esse projeto consiste na criação de uma estação meteorológica usando uma placa Arduino Uno, e sensores que meçam temperatura, pressão, umidade relativa, e mais um sensor a escolha do grupo. O sensores são calibrados pelos próprios alunos em laboratórios da faculdade, e deve ser montada uma placa com os componentes eletrônicos no laboratório de fabricação (FabLab).
-		</p>
-
-		<footer>
-			<p>
-				<a href="maker.html"><-- VOLTAR</a>
-			</p>
-
-			<p>
-				<a href="index.html">HOME</a>
-			</p>
-
-			<p>
-				&copy; 2016 <em>Guilherme Graicer; Bruno Bitelli; Juliana Pessoa; Vitória Rocha;</em>
-			</p>
-		</footer>
-
-	</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
