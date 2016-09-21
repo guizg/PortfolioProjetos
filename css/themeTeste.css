@@ -34,30 +34,12 @@ nav{
 	z-index: 1;
 }
 
-.foto{
-  position: absolute;
-  padding-top: 0px;
-  top: 0%;
-  visibility: visible;
-  z-index: 3;
-  left:5%;
-  top: 100%;
-}
-
 .sobremim{
 	position: absolute;
 	padding-top: 0px;
 	top: 0%;
 	visibility: visible;
 	z-index: 2;
-  width: 15%;
-  height: 15%;
-  left:-45%;
-  transition: left 1s;
-}
-
-.ativado{
-  left:-20%;
 }
 
 
